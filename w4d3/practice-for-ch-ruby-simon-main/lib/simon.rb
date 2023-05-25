@@ -36,7 +36,7 @@ class Simon
   end
 
   def add_random_color
-    seq.append(COLORS.sample)
+    self.seq.append(COLORS.sample)
     self.sequence_length +=1 
   end
 
